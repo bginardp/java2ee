@@ -1,20 +1,13 @@
 package es.palma.provajsp1.listeners;
 
-import java.util.ArrayList;
-import java.util.Date;
-
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-import javax.servlet.annotation.WebListener;
-
-import es.palma.provajsp1.entities.Company;
-import es.palma.provajsp1.entities.UserBean;
 
 /**
  * Application Lifecycle Listener implementation class IniciAplicacio1
  *
  */
-@WebListener
+
 public class IniciAplicacio implements ServletContextListener {
 
     /**
